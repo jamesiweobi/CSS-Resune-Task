@@ -1,0 +1,34 @@
+@media(max-width: 950px) {
+    .container {
+      width: 70%;
+    }
+  
+    .tab {
+      display: block;
+      width: 100%;
+      border-bottom: 3px #333 solid;
+    }
+  
+    .accordion {
+      display: block;
+      min-width: 450px;
+      height: auto;
+    }
+    .tab .content{
+      width: 85%;
+      }
+  
+      .tab:hover {
+        width: 100%;
+      }
+  }
+  
+  @media(max-width 680px) {
+    .container{
+      width: 90%;
+    }
+    .accordion {
+      width: 100px;
+      min-width: 350px;
+    }
+  }

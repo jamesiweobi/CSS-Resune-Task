@@ -11,6 +11,7 @@
     <!-- Google font CDN -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/media query.css">
     <title>Resume | James Iweobi | Stutern CSS Project</title>
 </head>
 
@@ -21,6 +22,10 @@
         </nav>
         <section class="landing body-width">
             <div class="landing-container">
+                <div class="hover-box">
+                    <h4 >Hover over an image</h4>
+                </div>
+                
                 <div class="img-landing-container con">
                     <div class="triger">
                         <div class=" card orange">
@@ -40,6 +45,12 @@
                     </div>
                 </div>
                 <div class="landing-text-container con">
+                    <div class="nav">
+                        <a href="#header"><i class="fas fa-home"></i></a>
+                        <a href="#telecoms"><i class="fas fa-hard-hat"></i></a>
+                        <a href="#software"><i class="fas fa-code"></i></i></a>
+                        <a href="#contact"><i class="far fa-address-book"></i></a>
+                    </div>
                     <div class="text-container">
                         <h1 class="hero">Jame<span class="gold-hero-text">s</span> Iweob<span
                                 class="gold-hero-text">i</span>.</h1>
@@ -47,17 +58,17 @@
                         <h2 class="hero2"> Software Devleoper | Microwave Transmission Engineer</h2>
                         <p class="bio-text">I seek opportunities to render my professional competence in world class
                             organizations that offer
-                            challenging skilled opportunities and potential career advancement, where my skills and
+                            challenging skilled opportunities and potential career advancement, Actively seeking opportunities where my skills and
                             potentials will be optimally
                             explored to make an impact that will culminate to global revolution in Technology. </p>
 
-                        <a class="gold-link" href="#">Follow my journey <i class="fas fa-angle-double-right"></i></a>
+                        <a  href="#telecoms" class="btn" >Follow My Journey <i class="fas fa-angle-double-down"></i></a>
                     </div>
 
                 </div>
             </div>
         </section>
-        <section class="telecoms">
+        <section class="telecoms" id="telecoms">
             <div class="telecom-container  body-width">
                 <div class="telecom-con1">
                     <p class="white-color">-Telecoms Profile</p>
@@ -65,68 +76,218 @@
                     <p>We provide a wealth of vast experince, working within and outside the sores of
                         Nigeria.</p>
                     <p>
-                    We are Innovative, Tenacious, Quick-to-delivery, Result and Standard oriented. we have cultivated and maintained 
-                    healthy relationships with clients and colleagues. </p>
+                        We are Innovative, Tenacious, Quick-to-delivery, Result and Standard oriented. we have
+                        cultivated and maintained
+                        healthy relationships with clients and colleagues. </p>
                 </div>
                 <div class="telecom-con2">
                     <ul>
                         <H2>With expertise in key telecommunications sectors , including but not limited to:</H2>
                         <li>Power and Power Solution for Base-Stations.</li>
-                        <li>Microwave Transmission Planning, Deployment,  Implimentation and Maintanance.</li>
+                        <li>Microwave Transmission Planning, Deployment, Implimentation and Maintanance.</li>
                         <li>Cellular RF Projects in All Technologies (LTE, WiMAX, UMTS, HSPA, GSM, etc.).</li>
                     </ul>
-                   <div class="rating">
-                       <div class="yearsOf ">
-                          <span class="rating"><h1 class="big-num">7</h1> <p class="small-text">Years of  Experince</p> </span>
-                       </div>
-                       <div class="places-visited">
-                        <span class="rating"><h1 class="big-num">25</h1> <p class="small-text">States With Our Presence</p> </span> 
-                      </div>
-                   </div>
+                    <div class="rating">
+                        <div class="yearsOf ">
+                            <span class="rating">
+                                <h1 class="big-num">7</h1>
+                                <p class="small-text">Years of Experince</p>
+                            </span>
+                        </div>
+                        <div class="places-visited">
+                            <span class="rating">
+                                <h1 class="big-num">25</h1>
+                                <p class="small-text">States With Our Presence</p>
+                            </span>
+                        </div>
+                    </div>
 
 
                 </div>
-                </div>
-
-
+            </div>
         </section>
-        <div style="height: auto;">
+        <div>
             <div class="telecom-con3">
-                <img  class="telco-logo" src="/images/Nokia-Logo.wine.svg" alt="Nokia logo">
-                <img  class="telco-logo" src="/images/ericsson-mobile-phones-5g-logo-company-home-appliance-f13d7a249e79ad44f25613f4b7b4f90b.png" alt="Ericsson logo">
-                <img class="telco-logo" src="/images/kisspng-logo-zte-obsidian-smartphone-telephone-search-results-for-amp-quot-amp-quot-page-13-5b7ea4140b6955.5356953115350261960467.png" alt="Huawei logo">
+                <img class="telco-logo" src="/images/Nokia-Logo.wine.svg" alt="Nokia logo">
+                <img class="telco-logo"
+                    src="/images/ericsson-mobile-phones-5g-logo-company-home-appliance-f13d7a249e79ad44f25613f4b7b4f90b.png"
+                    alt="Ericsson logo">
+                <img class="telco-logo"
+                    src="/images/kisspng-logo-zte-obsidian-smartphone-telephone-search-results-for-amp-quot-amp-quot-page-13-5b7ea4140b6955.5356953115350261960467.png"
+                    alt="Huawei logo">
                 <img class="telco-logo" src="/images/Airtel_Uganda-Logo.wine.svg" alt="Aviat logo">
             </div>
 
         </div>
 
-    <section class="software body-width">
-        <div class="software-container ">
-            
-            <div class="box1 box">
-            <img src="" alt="">
+        <section class="software body-width">
+            <div class="software-container ">
+                <div class="card-container">
+                    <span class="popup">
+                        <h3 class="project-name">
+                            CSS Grid Challenge from FrontEnd Mentors.
+                        </h3>
+                        <p>Built with HTML and CSS using CSS Grid, successfully completed within 24hrs and 100% responsive to all viewport.</p>
+                        <a href="https://github.com/jamesiweobi/Testimonials-Grid-Section-Main" target="_blank" class="btn">GitHub
+                            Repo  <i class="fab fa-github"></i></a>
+                        <a href="https://jamesiweobi.github.io/Testimonials-Grid-Section-Main/" target="_blank" class="btn">Hosted
+                            Project  <i class="fab fa-chrome"></i></a>
+                    </span>
+                    <div class="img-container">
+                        <img src="/images/Css_grid.JPG" alt="Css-grid_capture" class="img1">
+                    </div>
+                </div>
+
+                <div class="card-container">
+                    <div class="img-container">
+                        <img src="/images/TinDog_capture.JPG" alt="TinDog_capture" class="img2">
+                    </div> 
+                    <span class="popup">                               
+                        <h3 class="project-name">
+                            Tindog Project from Web-Development with Angela Yu.
+                        </h3>
+                        <p>This project was built with HTML and CSS only as an in study project on Web-Development, it was completed over a 2day period.</p>
+                        <a href="https://github.com/jamesiweobi/tindog" target="_blank">GitHub Repo  <i class="fab fa-github" class="btn" ></i></a>
+                        <a href="https://jamesiweobi.github.io/tindog/" target="_blank"class="btn" >Hosted Project  <i class="fab fa-chrome"></i></a>
+                    </span>          
+                </div>
+
+                <div class="card-container">
+                    <span class="popup">
+                        <h3 class="project-name">
+                            A Project from Web-Development with Travis-Media.
+                        </h3>
+                        <p>This project was built with HTML and CSS only as an in study project on Web-Development, built with HTML and CSS.</p>
+                        <a href="https://github.com/jamesiweobi/Hotel-Website-Project" target="_blank" class="btn" >GitHub Repo  <i class="fab fa-github"></i></a>
+                        <a href="https://jamesiweobi.github.io/Hotel-Website-Project/" target="_blank" class="btn" >Hosted
+                            Project  <i class="fab fa-chrome"></i></a>
+                    </span>
+                    <div class="img-container">
+                        <img src="/images/Hotel_website_capture.JPG" alt="Hotel project TinDog_capture" class="img3">
+                    </div>                  
+                </div>
+                <div class="card-container">
+                    <div class="img-container">
+                        <img src="/images/udemy_complete_clone.JPG" alt="Udemy capture" class="img4">
+                    </div>
+                    <span class="popup">
+                        <h3 class="project-name">
+                            A Stutern Software Development Class Challenge.
+                        </h3>
+                        <p>A Stutern class challenge to build a Udemy look alike, it was built with HTML and CSS only. time spent on building this project 2days.</p>
+                        <a href="https://github.com/jamesiweobi/Udemy-CSS-Clone-Class-Task" target="_blank" class="btn" >GitHub
+                            Repo  <i class="fab fa-github"></i></a>
+                        <a href="https://nervous-shirley-d47e9c.netlify.app/" target="_blank" class="btn">Hosted Project  <i class="fab fa-chrome"></i></a>
+                    </span>
+
+                </div>
+                <div class="card-container">
+                   
+                    <span class="popup">
+                        <h3 class="project-name">
+                            A Social-media Accordian Project with Travis-Media.
+                        </h3>
+                        <p>A social accoordian for a contact me page, built as an in class project with Travis-Media, built with HTML and CSS only.</p>
+                        <a href="https://github.com/jamesiweobi/Udemy-CSS-Clone-Class-Task" target="_blank" class="btn">GitHub
+                            Repo  <i class="fab fa-github" class="btn" ></i></a>
+                        <a href="https://jamesiweobi.github.io/Genericons-and-CSS-transitions/" target="_blank" class="btn" >Hosted
+                            Project  <i class="fab fa-chrome"></i></a>
+                    </span>
+                    <div class="img-container">
+                        <img src="/images/Genericon_capture.JPG" alt="Genericon_capture" class="img5">
+                    </div>
+                </div>
             </div>
-        
-            <div class="box2 box">
-                <img src="/images/TinDog_capture.JPG" alt="TinDog_capture" class="box2">
+
+        </section>
+<section class="contact" id="contact">
+    <div class="containers">
+        <header>
+          <h1>Contact Us</h1>
+        </header>
+        <ul class="accordion">
+          <li class="tab">
+            <div class="social youtube">
+              <a href="https://youtu.be/4M6qPoFWIxI" target="_blank" class="accord-link">Youtube</a>
             </div>
-        
-            <div class="box3 box">
-     
+            <div class="contents">
+              <h1>Youtube</h1>
+              <p>Follow link to get to the tutorial page for this project.</p>
             </div>
-        
-            <div class="box4 box">
-         
+          </li>
+          <li class="tab">
+            <div class="social twitter">
+              <a href="https://twitter.com/iweobi" target="_blank" class="accord-link" >Twitter</a>
             </div>
-        
-            <div class="box5 box">
-           
+            <div class="contents">
+              <h1>Twitter</h1>
+              <p>Follow me on twitter to find my the latest info on my Web Dev progress and other activities.</p>
             </div>
-          </div>
-          
-    </section>
+          </li>
+          <li class="tab">
+            <div class="social facebook">
+              <a href="https://www.facebook.com/iweobi?ref=bookmarks" target="_blank" class="accord-link">Facebook</a>
+            </div>
+            <div class="contents">
+              <h1>Facebook</h1>
+              <p>This is a link to my Facebook page, try not to laugh at my old pictures.</p>
+            </div>
+          </li>
+          <li class="tab">
+            <div class="social linkedin">
+              <a href="https://www.linkedin.com/in/james-iweobi-63b0089a/?originalSubdomain=ng" target="_blank" class="accord-link">Linkedin</a>
+            </div>
+            <div class="contents">
+              <h1>Linkedin</h1>
+              <p>This link, sends you to my Linkedin profile, where you can view my professional profile.</p>
+            </div>
+          </li>
+          <li class="tab">
+            <div class="social instagram">
+              <a href="https://www.instagram.com/storiesofjames/" target="_blank" class="accord-link">Instagram</a>
+            </div>
+            <div class="contents">
+              <h1>Instagram</h1>
+              <p>This link sends you to my Instagram profile where you can view pictures or videos of me and all the places I have visited.</p>
+            </div>
+          </li>
+          <li class="tab">
+            <div class="social github">
+              <a href="https://github.com/jamesiweobi" target="_blank" class="accord-link">
+              Github</a>
+            </div>
+            <div class="contents">
+              <h1>Github</h1>
+              <p>This link will get you to my Github profile, where you can view all the work I have done so far as a Web Developer.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+</section>
+<footer class="black-bg">
+    <div class="main-footer-container">
+        <div class="footer-container">
+            <div class="footer-content">
+                <h3>Services</h3>
+                <a href="#telecoms">Telecommunications</a>
+                <a href="#software">Software Development  </a>
+                <a href="#">Consultant</a>          
+            </div>
+                <div class="footer-content">
+    <h3>Contact</h3>
+    <a href="#contact">Contact</a>
+    <a href="#">Newsletter</a>
+    <a href="#">Linkedin</a>
+                </div>
+        </div>
+    <div class="footer-name">
+        <h1>James Iweobi</h1>
+        <p>&copy; All Rights Reserved. 2021</p>
+    </div>
+    </div>
 
 
+</footer>
 
 
 
