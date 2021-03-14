@@ -87,6 +87,7 @@
     .accordion {
         width: 100px;
         min-width: 350px;
+        margin: 0 auto;
     }
 
     .main-footer-container {
@@ -96,11 +97,12 @@
     .footer-name {
         width: 100%;
     }
-
-    /* .containers {
-        margin: 0 auto;
-        width: 90%;
-    } */
+.nav {
+    flex-direction: column;
+}
+.text-container{
+    margin: 0 auto;
+}
 }
 
 @media(max-width 680px) {
