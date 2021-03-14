@@ -197,7 +197,7 @@
     line-height: 2rem;
     margin-bottom: 20px;
 }
-
+/* Telecoms Section */
 .telecoms {
     background-color: #343547;
     height: 80vh;
@@ -270,8 +270,6 @@
     padding-top: 20px;
     display: flex;
     align-items: center;
-    /* justify-content:; */
-
 }
 
 .rating span {
@@ -294,10 +292,7 @@
     height: auto;
 }
 
-.img1 {
-    width: auto;
-    height: 300px;
-}
+
 
 .popup {
     align-content: space-around;
@@ -327,7 +322,10 @@
     line-height: 1.9;
 
 }
-
+.img1 {
+    width: auto;
+    height: 300px;
+}
 .img2 {
     width: auto;
     height: 250px;
@@ -373,7 +371,7 @@ img {
 
 /* contact  */
 #contact {
-    height: 300px;
+    height: auto;
 }
 
 @font-face {

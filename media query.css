@@ -21,14 +21,66 @@
       .tab:hover {
         width: 100%;
       }
-  }
+      .img-landing-container, .hover-box {
+          display: none;
+          flex-direction: column;
+      }
+      .text-container {
+          width: auto;
+      }
+.con {
+    width: auto;
+}
+.telecom-container{
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.telecoms{
+    height: auto;
+}
+.telecom-con3{
+  display: none;
+}
+.card-container{
+    flex-direction: column;
+    height: auto;
+    padding: 20px 0;
+}
+.img1 {
+    width: 200px;
+    height: 300px;
+}
+.img2 {
+    width: 200px;
+    height: 250px;
+}
+
+.img3 {
+    width: 200px;
+    height: 250px;
+}
+
+.img4 {
+    width: 200px;
+    height: 250px;
+}
+
+.img5 {
+    width: 200px;
+    height: 250px;
+}
+
+
+ }
   
   @media(max-width 680px) {
-    .container{
+    .containers{
       width: 90%;
     }
     .accordion {
       width: 100px;
       min-width: 350px;
     }
+
+
   }
