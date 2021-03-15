@@ -105,7 +105,7 @@
 }
 }
 
-@media(max-width 680px) {
+@media(max-width: 680px) {
     .containers {
         margin: auto;
         width: 90%;
