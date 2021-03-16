@@ -72,14 +72,14 @@
 }
 
 .orange {
-    background-image: url(/images/eng-Img1.jpeg);
+    background-image: url(./images/eng-Img1.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .yellow {
-    background-image: url(/images/eng-img2.jpeg);
+    background-image: url(./images/eng-img2.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -87,7 +87,7 @@
 }
 
 .red {
-    background-image: url(/images/cover\ image.jpg);
+    background-image: url(./images/cover\ image.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -376,8 +376,8 @@ img {
 
 @font-face {
     font-family: 'Genericons';
-    src: url('Fonts/genericons-regular-webfont.woff') format('woff'),
-        url('Fonts/genericons-regular-webfont.eot') format('truetype');
+    src: url('./Fonts/genericons-regular-webfont.woff') format('woff'),
+        url('./Fonts/genericons-regular-webfont.eot') format('truetype');
 }
 
 .containers {
