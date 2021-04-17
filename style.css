@@ -72,6 +72,7 @@
 }
 
 .orange {
+<<<<<<< HEAD
 	background-image: url(/images/eng-Img1.jpeg);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -91,6 +92,27 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+=======
+    background-image: url(./images/eng-Img1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.yellow {
+    background-image: url(./images/eng-img2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-fill-mode: forwards;
+}
+
+.red {
+    background-image: url(./images/cover\ image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+>>>>>>> 0ea2b01438b1cdcb33d87f7f0ebe071e8afd252e
 }
 
 .triger:hover .orange {
@@ -371,9 +393,15 @@ img {
 }
 
 @font-face {
+<<<<<<< HEAD
 	font-family: "Genericons";
 	src: url("Fonts/genericons-regular-webfont.woff") format("woff"),
 		url("Fonts/genericons-regular-webfont.eot") format("truetype");
+=======
+    font-family: 'Genericons';
+    src: url('./Fonts/genericons-regular-webfont.woff') format('woff'),
+        url('./Fonts/genericons-regular-webfont.eot') format('truetype');
+>>>>>>> 0ea2b01438b1cdcb33d87f7f0ebe071e8afd252e
 }
 
 .containers {
@@ -567,6 +595,11 @@ header h1 {
 }
 
 .footer-name p {
+<<<<<<< HEAD
 	font-size: 12px;
 	margin-top: 30px;
+=======
+    font-size: 12px;
+    margin-top: 30px;
+>>>>>>> 0ea2b01438b1cdcb33d87f7f0ebe071e8afd252e
 }
