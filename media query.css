@@ -1,119 +1,123 @@
-@media(max-width: 950px) {
-    .container {
-        width: 70%;
-    }
+@media (max-width: 950px) {
+  .container {
+    width: 70%;
+  }
 
-    .tab {
-        display: block;
-        width: 100%;
-        border-bottom: 3px #333 solid;
-    }
+  .tab {
+    display: block;
+    width: 100%;
+    border-bottom: 3px #333 solid;
+  }
 
-    .accordion {
-        display: block;
-        min-width: 450px;
-        height: auto;
-    }
+  .accordion {
+    display: block;
+    min-width: 450px;
+    height: auto;
+  }
 
-    .tab .content {
-        width: 85%;
-    }
+  .tab .content {
+    width: 85%;
+  }
 
-    .tab:hover {
-        width: 100%;
-    }
+  .tab:hover {
+    width: 100%;
+  }
 
-    .img-landing-container,
-    .hover-box {
-        display: none;
-        flex-direction: column;
-    }
-
-    .text-container {
-        width: auto;
-    }
-
-    .con {
-        width: auto;
-    }
-
-    .telecom-container {
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    }
-
-    .telecoms {
-        height: auto;
-    }
-
-    .telecom-con3 {
-        display: none;
-    }
-
-    .card-container {
-        flex-direction: column;
-        height: auto;
-        padding: 20px 0;
-    }
-
-    .popup {
-        width: 350px;
-    }
-
-    .img1 {
-        width: 340px;
-        height: 300px;
-    }
-
-    .img2 {
-        width: 340px;
-        height: 250px;
-    }
-
-    .img3 {
-        width: 340px;
-        height: 250px;
-    }
-
-    .img4 {
-        width: 340px;
-        height: 250px;
-    }
-
-    .img5 {
-        width: 340px;
-        height: 250px;
-    }
-
-    .accordion {
-        width: 100px;
-        min-width: 350px;
-        margin: 0 auto;
-    }
-
-    .main-footer-container {
-        flex-direction: column;
-    }
-
-    .footer-name {
-        width: 100%;
-    }
-.nav {
+  .img-landing-container,
+  .hover-box {
+    display: none;
     flex-direction: column;
-}
-.text-container{
+  }
+
+  .text-container {
+    width: auto;
+  }
+
+  .con {
+    width: auto;
+  }
+
+  .telecom-container {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+
+  .telecoms {
+    height: auto;
+  }
+
+  .telecom-con3 {
+    display: none;
+  }
+
+  .card-container {
+    flex-direction: column;
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .popup {
+    width: 350px;
+  }
+
+  .img1 {
+    width: 340px;
+    height: 300px;
+  }
+
+  .img2 {
+    width: 340px;
+    height: 250px;
+  }
+
+  .img3 {
+    width: 340px;
+    height: 250px;
+  }
+
+  .img4 {
+    width: 340px;
+    height: 250px;
+  }
+
+  .img5 {
+    width: 340px;
+    height: 250px;
+  }
+
+  .accordion {
+    width: 100px;
+    min-width: 80%;
+    margin: auto;
+  }
+
+  .main-footer-container {
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .footer-name {
+    width: 100%;
+    text-align: center;
+  }
+  .nav {
+    flex-direction: column;
+  }
+  .text-container {
     margin: 0 auto;
+  }
 }
-}
 
-@media(max-width: 680px) {
-    .containers {
-        margin: auto;
-        width: 90%;
-    }
+@media (max-width: 680px) {
+  .containers {
+    margin: auto;
+    width: 90%;
+  }
 
-    .accordion {
-        width: 100px;
-        min-width: 350px;
-    }
-
+  .accordion {
+    width: 100px;
+    min-width: 90%;
+  }
+  .footer-name {
+    align-self: center;
+  }
 }
